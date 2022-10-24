@@ -1,0 +1,5 @@
+<mat-grid-list class="material-grid-container" [cols]="cols" rowHeight="2:2">
+    <mat-grid-tile *ngFor="let hero of HEROES;">
+        <app-card [hero]="hero"></app-card>
+    </mat-grid-tile>
+</mat-grid-list>
