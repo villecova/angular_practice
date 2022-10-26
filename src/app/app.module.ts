@@ -13,6 +13,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
 import {LayoutModule} from '@angular/cdk/layout';
 import { LayoutComponent } from './layout/layout.component';
+import { GridTailwindComponent } from './grid-tailwind/grid-tailwind.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { LayoutComponent } from './layout/layout.component';
     CardComponent,
     GridComponent,
     GridMaterialComponent,
-    LayoutComponent
+    LayoutComponent,
+    GridTailwindComponent
   ],
   imports: [
     BrowserModule,
